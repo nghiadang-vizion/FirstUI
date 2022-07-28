@@ -165,7 +165,7 @@ iframe{
 /* big text */
 .body-wrap{
     position: relative;
-    top: 990px;
+    transform: translateY(20%);
 }
 
 .big_text{
