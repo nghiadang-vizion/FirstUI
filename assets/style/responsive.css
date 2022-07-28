@@ -246,10 +246,14 @@
         flex-direction: column;
         position: relative;
         align-items: flex-start;
-        top: 360px;
+        top: 300px;
+        transform: translateX(8px);
     }
     .nav-item{
         margin: 10px 0;
+    }
+    .nav_lst .nav-item a i{
+        width: 100%;
     }
     .container{
         margin-top: 80px;
@@ -429,10 +433,14 @@
         flex-direction: column;
         position: relative;
         align-items: flex-start;
-        top: 360px;
+        top: 300px;
+        transform: translateX(8px);
     }
     .nav-item{
         margin: 10px 0;
+    }
+    .nav_lst .nav-item a i{
+        width: 100%;
     }
     .container{
         margin-top: 80px;
