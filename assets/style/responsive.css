@@ -523,6 +523,7 @@
     .footer-lst{
         column-count: 1;
         width: 100%;
+        transform: translateX(-29px);
     }
     .footer-lst .footer-item{
         margin-left: 15px;
@@ -533,6 +534,15 @@
     }
     .footer-lst .footer-item a i{
         width: 100%;
+    }
+    .arrow_icon::before{
+        content: none;
+    }
+    .footer-lst .footer-item:last-child{
+        transition: all 0.3s;
+    }
+    .footer-lst .footer-item:last-child:hover{
+        opacity: .6;
     }
     .footer-btn{
         border: 1px solid hsla(0,0%,100%,.25);
