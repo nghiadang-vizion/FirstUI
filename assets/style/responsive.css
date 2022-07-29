@@ -25,6 +25,15 @@
         opacity: 0;
         cursor: default;
     }
+    .nav-pc{
+        transform: translateX(15px);
+    }
+    .intro_content{
+        padding: 0px 155px;
+    }
+    .avt img{
+        height: 570px;
+    }
 }
 
 /* smal desk */
@@ -74,7 +83,8 @@
         margin-top: 250px;
     }
     .body-wrap{
-        top: 615px;
+        top: 0;
+        transform: translateY(14%);
     }
     .intro-mobile{
         margin-top: 180px;
@@ -187,6 +197,64 @@
 
 }
 
+
+/* ipad Air, ipad mini, surface 7 */
+@media (min-width: 51.250em) and (max-width: 57em) {
+    .footer-wrap{
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .footer-lst{
+        margin-bottom: 0;
+    }
+    .footer-social{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .footer-social-lst{
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+    .footer-btn{
+        margin-right: 0;
+    }
+    .footer-social-item a i{
+        padding-left: 65px;
+        margin-right: 0;
+
+    }
+    .work-wrap{
+        display: flex;
+        margin-top: 20px;
+    }
+    .work-wrap h2{
+        font-size: calc(19px + 13*(100vw - 320px)/ 2180);
+        width: 100%;
+        font-weight: bold;
+        line-height: 1.5;
+        padding-right: 100px;
+    }
+    .work-wrap h2{
+        margin: 0;
+    }
+    .work_detail img{
+        padding: 0 30px;
+    }
+    .work_detail p{
+        padding-left: 0;
+        font-size: 15px;
+    }
+    .intro-mobile{
+        padding: 0 30px;
+    }
+    iframe{
+        padding: 0 30px;
+    }
+    .intro_content{
+        padding: 50px 80px;
+    }
+}
 
 /* tablet */
 @media (min-width: 31.250em) and (max-width: 47.938em){
@@ -514,8 +582,8 @@
         margin-top: 160px;
     }
     .brand_logo_slide{
-        height: 130px;
-        width: 130px;
+        height: 156px;
+        width: 156px;
     }
     footer{
         padding: 160px 30px 40px;

@@ -7,6 +7,10 @@
     scroll-behavior: smooth;
 }
 
+ul{
+    margin-bottom: 0;
+}
+
 svg{
     width: 110px;
     height: 20px;
@@ -18,7 +22,7 @@ li{
 }
 
 p{
-    font-family: Whyte Book,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif,monospace;
+    font-family:Monument Grotesk Mono,Monaco,Courier,monospace;
     text-align: left;
 }
 
@@ -83,14 +87,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 60px;
+    margin: 0px 50px;
     height: 120px;
 }
 
 .icon{
     font-family: Monument Grotesk Mono,Monaco,Courier,monospace;
     font-size: 20px;
-    margin-left: 17px;
+    transform: translate(14px, 4px);
 }
 
 .nav_lst{
@@ -101,7 +105,7 @@ a{
 }
 
 .nav_lst .nav-item a{
-    margin: 0 20px;
+    margin: 0 17.5px;
     font-size: 14px;
     letter-spacing: .8px;
     line-height: 1.71;
@@ -152,11 +156,6 @@ a{
     margin-left: 0;
     margin-right: 0;
 }
-
-.first_content{
-    margin-top: 230px;
-}
-
 iframe{
     position: absolute;
     width: 100%;
@@ -183,6 +182,12 @@ iframe{
     text-align: center;
     font-size: calc(28px + 68*(100vw - 320px)/ 2180);
     line-height: 1.17;
+    font-family: Whyte Book,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;  
+}
+
+.middle-text{
+    font-size: calc(28px + 44*(100vw - 320px)/ 2180) !important;
+    padding: 0 70px;
 }
 /* intro*/
 .intro{
@@ -210,6 +215,7 @@ iframe{
 
 .intro_content p{
     font-size: calc(19px + 13*(100vw - 320px)/2180);
+    font-family: Whyte Book,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;  
 }
 
 .wrap-text div{
